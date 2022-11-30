@@ -20,6 +20,9 @@
     "react-native-web": "0.13.16",
     "react-scripts": "3.4.1"
   },
+  "env": {
+    "test": { "presets": ["react-app"] }
+  },
   "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
