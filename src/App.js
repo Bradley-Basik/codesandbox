@@ -28,7 +28,7 @@ class App extends Component {
         <View style={styles.mainText}>
           <Text style={styles.text}>Learn how to create a Mobile app with</Text>
           <Text style={styles.text}>
-            <Link href="https://github.com/facebook/create-react-app">
+            <Link href="https://groupie-community.herokuapp.com/">
               Create React App
             </Link>{" "}
             and{" "}
@@ -39,14 +39,14 @@ class App extends Component {
         </View>
         <Text style={[styles.text, styles.paragraph]}>
           To get started, edit{" "}
-          <Link href="https://codesandbox.io/s/z6x9w4x48p/" style={styles.code}>
+          <Link href="https://groupie-community.herokuapp.com/auth/google" style={styles.code}>
             src/App.js
           </Link>
           .
         </Text>
         <Button
           onPress={() => {
-            window.open("https://medium.com/p/310034a3729");
+            window.open("https://groupie-community.herokuapp.com/auth/google");
           }}
           title="Hands-on tutorial"
           style={{ paddingLeft: 15, paddingRight: 15 }}
